@@ -33,7 +33,7 @@ public class Main {
             i++;
         }
         double cgpa = totalPoints / totalCredits;
-        System.out.println(" Your CGPA is: " + cgpa);
+        System.out.println(" Your CGPA is: " + cgpa);   //Added CGPA calculation feature
     }
 }
 //Code improvements
