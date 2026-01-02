@@ -20,3 +20,4 @@ public class Subject {
     }
 } //Initial CGPA Calculator Project
 
+//Added Subject class
