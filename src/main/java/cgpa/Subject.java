@@ -10,7 +10,7 @@ public class Subject {
     public Subject(String subjectName, double gradePoint, int creditHours) {
         this.subjectName = subjectName;
         this.gradePoint = gradePoint;
-        this.creditHours = creditHours;   //Added Subject class
+        this.creditHours = creditHours;
     }
     public String getSubjectName() {
         return subjectName;
@@ -20,3 +20,4 @@ public class Subject {
     }
 } //Initial CGPA Calculator Project
 
+//Added Subject Class
