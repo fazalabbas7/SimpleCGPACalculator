@@ -5,8 +5,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        ArrayList<Subject> subjects = new ArrayList<>();
+        Scanner input = new Scanner(System.in);  ArrayList<Subject> subjects = new ArrayList<>();
         char choice;
         System.out.println("===== Simple CGPA Calculator =====\n");
         // do-while loop subject entry
@@ -28,12 +27,11 @@ public class Main {
         int i = 0;
         // while loop
         while (i < subjects.size()) {
-            totalPoints += subjects.get(i).getTotalPoints();
-            totalCredits += subjects.get(i).getCreditHours();
+            totalPoints = totalPoints + subjects.get(i).getTotalPoints();
+            totalCredits = totalCredits + subjects.get(i).getCreditHours();
             i++;
         }
         double cgpa = totalPoints / totalCredits;
         System.out.println(" Your CGPA is: " + cgpa);   //Added CGPA calculation feature
-    }
+    } //Code improvements
 }
-//Code improvements
